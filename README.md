@@ -18,11 +18,11 @@ A learning platform that takes developers from Python to production AI in one st
 - **Next.js 16 on Cloudflare Workers**, Supabase for auth and data, Razorpay payments, Resend email and Turnstile spam protection
 - Built for speed and trust: staging that mirrors production, deploys that never break open pages, and full privacy, refund and grievance pages
 
-### [Splitr](https://splitr.in) · live
+### [Splitr](https://splitr.in) · live on the web, Android app in testing
 
 [![Splitr homepage](assets/splitr.png)](https://splitr.in)
 
-The complete OS for your wallet: split group expenses with friends, keep a personal ledger, and manage credit card EMIs with AI. It can also bring your history over from Splitwise.
+The complete OS for your wallet: split group expenses with friends, keep a personal ledger, and manage credit card EMIs with AI. The [Android app](https://play.google.com/store/apps/details?id=in.splitr.app) (in closed testing) can also import your history from Splitwise.
 
 - TypeScript app with a Postgres database, deployed on a VPS with Docker Compose and Caddy for automatic HTTPS
 
