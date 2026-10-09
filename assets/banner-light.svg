@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jay Prakash: lead software engineer building AI products. Career line: Java and Spring Boot, microservices and APIs, cloud and Kubernetes, distributed systems, AI products.">
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="1120" y2="0"><stop offset="0" stop-color="#2b59ff"/><stop offset="0.55" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#dfe5ee"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="#f6f8fb"/>
+  <rect width="1200" height="320" rx="20" fill="url(#dots)"/>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="80" y="98" font-size="58" font-weight="800" fill="#12203a" letter-spacing="-1.5">Jay Prakash</text>
+    <text x="80" y="140" font-size="25" font-weight="600" fill="#12203a">Lead software engineer, now building AI products</text>
+    <text x="80" y="172" font-size="18" fill="#4a5a75">Delhi, India. 7+ years shipping Java and distributed systems.</text>
+    <line x1="80" y1="238" x2="1120" y2="238" stroke="url(#line)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="1120" cy="238" r="11" fill="none" stroke="#db2777" stroke-width="2">
+      <animate attributeName="r" values="11;26" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="238" r="9" fill="#ffffff" stroke="url(#line)" stroke-width="5"/><text x="80" y="278" text-anchor="start" font-size="17" font-weight="500" fill="#4a5a75">Java &amp; Spring Boot</text><circle cx="340" cy="238" r="9" fill="#ffffff" stroke="url(#line)" stroke-width="5"/><text x="340" y="278" text-anchor="middle" font-size="17" font-weight="500" fill="#4a5a75">Microservices &amp; APIs</text><circle cx="600" cy="238" r="9" fill="#ffffff" stroke="url(#line)" stroke-width="5"/><text x="600" y="278" text-anchor="middle" font-size="17" font-weight="500" fill="#4a5a75">Cloud &amp; Kubernetes</text><circle cx="860" cy="238" r="9" fill="#ffffff" stroke="url(#line)" stroke-width="5"/><text x="860" y="278" text-anchor="middle" font-size="17" font-weight="500" fill="#4a5a75">Distributed systems</text><circle cx="1120" cy="238" r="11" fill="#db2777" stroke="url(#line)" stroke-width="5"/><text x="1120" y="278" text-anchor="end" font-size="17" font-weight="700" fill="#12203a">AI products</text>
+    <circle r="6" fill="#12203a"><animateMotion dur="7s" repeatCount="indefinite" path="M80,238 L1120,238" keyPoints="0;1;1" keyTimes="0;0.8;1" calcMode="linear"/></circle>
+  </g>
+</svg>
