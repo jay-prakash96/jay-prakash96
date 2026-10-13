@@ -11,20 +11,24 @@ I'm a lead software engineer with 7+ years of building backend systems in **Java
 
 [![AI Engineer Path homepage](assets/aiengineerpath.png)](https://aiengineerpath.in)
 
-A learning platform that takes developers from Python to production AI in one structured path: machine learning, deep learning, building a GPT from scratch, then LLM apps, RAG, agents, evals and LLMOps.
+Become an AI engineer at your own pace. One 40-week path from Python to production AI, for developers who already code: along the way you build a GPT from scratch, a RAG system with evals, and an agent that's safe to leave running.
 
-- **247 original lessons** with worked examples, **22 interactive simulations** (attention, gradient descent, RAG, KV cache…), quizzes, exercises and interview questions for every topic
+- **247 original lessons** across 8 phases, **22 interactive simulations** (self-attention, gradient descent, temperature and top-p, a RAG pipeline…), and a quiz, exercises and interview questions for every week
+- **Eight portfolio projects**, with two flagships that ship eval results and a cost analysis: a production RAG system with hybrid search and reranking, and a LangGraph agent with approval gates, a cost ceiling and its own MCP server
 - A **pace engine** that re-dates 280 daily tasks to the hours each learner has, with progress synced across devices
+- **148 free videos** from StatQuest, Andrej Karpathy, 3Blue1Brown and others, each placed on the week it helps. Weeks 1–5 are open with no sign-up
 - **Next.js 16 on Cloudflare Workers**, Supabase for auth and data, Razorpay payments, Resend email and Turnstile spam protection
-- Built for speed and trust: staging that mirrors production, deploys that never break open pages, and full privacy, refund and grievance pages
 
-### [Splitr](https://splitr.in) · live on the web, Android app in testing
+### [Splitr](https://splitr.in) · live on the web, Android app in closed testing
 
 [![Splitr homepage](assets/splitr.png)](https://splitr.in)
 
-The complete OS for your wallet: split group expenses with friends, keep a personal ledger, and manage credit card EMIs with AI. The [Android app](https://play.google.com/store/apps/details?id=in.splitr.app) (in closed testing) can also import your history from Splitwise.
+Know who owes whom, and settle up by UPI. Add what you spent on a trip, the flat rent or office lunches; Splitr works out the fewest payments to make everyone even, then opens GPay, PhonePe or Paytm to pay back. A private personal ledger keeps track of your own money alongside.
 
-- TypeScript app with a Postgres database, deployed on a VPS with Docker Compose and Caddy for automatic HTTPS
+- **Android app in Flutter** that works offline: writes queue on the phone and sync with idempotency keys, so nothing is saved twice. UPI deep links, Google sign-in, push notifications, Hindi and English
+- **Personal ledger** with a monthly summary, category breakdown, budgets and a savings goal, and no bank login
+- Splitwise import with original dates, receipt scanning, 25 currencies, and group chat over WebSockets
+- **TypeScript (React and Express) on PostgreSQL**, deployed with Docker Compose and Caddy; each deploy runs migrations first and rolls back automatically if the health check fails
 
 ## Engineering projects
 
