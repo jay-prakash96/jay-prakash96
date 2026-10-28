@@ -19,7 +19,7 @@ A learning platform I built around one 40-week path from Python to production AI
 - **148 free videos** from StatQuest, Andrej Karpathy, 3Blue1Brown and others, each placed on the week it helps
 - **Next.js 16 on Cloudflare Workers**, Supabase for auth and data, Resend email and Turnstile spam protection
 
-### [Splitr](https://splitr.in) · live on the web, Android app in closed testing
+### [Splitr](https://splitr.in) · live on the web and [Google Play](https://play.google.com/store/apps/details?id=in.splitr.app)
 
 [![Splitr homepage](assets/splitr.png)](https://splitr.in)
 
