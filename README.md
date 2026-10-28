@@ -7,30 +7,6 @@ I'm a lead software engineer with 7+ years of building backend systems in **Java
 
 ## What I've built
 
-### [Arjun Fresh](https://arjunfresh.com) · live on the web, Android and iPhone apps coming
-
-[![Arjun Fresh homepage](assets/arjunfresh.png)](https://arjunfresh.com)
-
-Online ordering for a neighbourhood fruit and vegetable store in Delhi, which until now took orders over WhatsApp. One Supabase backend runs the website, an Android and iPhone app, and the store's admin panel, for households as well as hotels and restaurants.
-
-- **Prices are worked out on the server**: a Postgres `place_order` function re-prices every line and checks stock, delivery slot cut-off, pincode, coupons and credit limits. Fresh produce follows the owner's **daily mandi rates**; items without a rate today are weighed and priced at packing, and the customer sees the final bill update live
-- **Delivery built in**: map pin and delivery radius on OpenStreetMap, fees by distance, rider runs, and **live delivery tracking** from a rider page that needs no login
-- **Pay how you like**: cash or UPI on delivery, Razorpay online (signature-verified on the server), or monthly credit for business customers, with a limit and a running ledger
-- **Admin panel** with owner and staff roles, Web Push alerts for new orders, sales insights, and search that understands local names (*doodh*, *kela*, *atta*) across about 800 products
-- **Next.js 16 on Cloudflare Workers**, an **Expo** app for Android and iOS, and **Supabase** with row-level security. Migrations are tested on an in-memory Postgres, with GitHub Actions checks and nightly database backups
-
-### [Plannly](https://plannly.org) · live
-
-[![Plannly homepage](assets/plannly.png)](https://plannly.org)
-
-A free study planner that tells you what to study today. For school, college and exam-prep students in any country: it turns exams, homework, classes and the syllabus into one daily plan, and when you're stuck, AI explains it at your grade and in your language.
-
-- **A plan that fits the days you have**: syllabus topics spread across the days before the exam, important ones first, with revision days kept at the end. It adjusts to how fast you actually work
-- **Spaced repetition** for revision, and flashcards on the same SM-2 schedule Anki uses, with Learn, Test and Match modes
-- **AI study help** with Claude: topics pulled from your curriculum, step-by-step answers from a photo of a question, and notes, flashcards and a quiz made from a lecture PDF
-- Attendance tracking, mock-test trends, GPA and CGPA, a focus timer and Android home-screen widgets
-- **Offline-first Flutter app** (data stays on the device). The backend is **Spring Boot 3** with PostgreSQL, Redis, JWT auth, Razorpay and the Anthropic Java SDK, deployed with Docker Compose and Caddy; the website runs on Cloudflare Pages
-
 ### [AI Engineer Path](https://aiengineerpath.in) · live
 
 [![AI Engineer Path homepage](assets/aiengineerpath.png)](https://aiengineerpath.in)
@@ -53,6 +29,30 @@ Know who owes whom, and settle up by UPI. Add what you spent on a trip, the flat
 - **Personal ledger** with a monthly summary, category breakdown, budgets and a savings goal, and no bank login
 - Splitwise import with original dates, receipt scanning, 25 currencies, and group chat over WebSockets
 - **TypeScript (React and Express) on PostgreSQL**, deployed with Docker Compose and Caddy; each deploy runs migrations first and rolls back automatically if the health check fails
+
+### [Plannly](https://plannly.org) · live
+
+[![Plannly homepage](assets/plannly.png)](https://plannly.org)
+
+A free study planner that tells you what to study today. For school, college and exam-prep students in any country: it turns exams, homework, classes and the syllabus into one daily plan, and when you're stuck, AI explains it at your grade and in your language.
+
+- **A plan that fits the days you have**: syllabus topics spread across the days before the exam, important ones first, with revision days kept at the end. It adjusts to how fast you actually work
+- **Spaced repetition** for revision, and flashcards on the same SM-2 schedule Anki uses, with Learn, Test and Match modes
+- **AI study help** with Claude: topics pulled from your curriculum, step-by-step answers from a photo of a question, and notes, flashcards and a quiz made from a lecture PDF
+- Attendance tracking, mock-test trends, GPA and CGPA, a focus timer and Android home-screen widgets
+- **Offline-first Flutter app** (data stays on the device). The backend is **Spring Boot 3** with PostgreSQL, Redis, JWT auth, Razorpay and the Anthropic Java SDK, deployed with Docker Compose and Caddy; the website runs on Cloudflare Pages
+
+### [Arjun Fresh](https://arjunfresh.com) · live on the web, Android and iPhone apps coming
+
+[![Arjun Fresh homepage](assets/arjunfresh.png)](https://arjunfresh.com)
+
+Online ordering for a neighbourhood fruit and vegetable store in Delhi, which until now took orders over WhatsApp. One Supabase backend runs the website, an Android and iPhone app, and the store's admin panel, for households as well as hotels and restaurants.
+
+- **Prices are worked out on the server**: a Postgres `place_order` function re-prices every line and checks stock, delivery slot cut-off, pincode, coupons and credit limits. Fresh produce follows the owner's **daily mandi rates**; items without a rate today are weighed and priced at packing, and the customer sees the final bill update live
+- **Delivery built in**: map pin and delivery radius on OpenStreetMap, fees by distance, rider runs, and **live delivery tracking** from a rider page that needs no login
+- **Pay how you like**: cash or UPI on delivery, Razorpay online (signature-verified on the server), or monthly credit for business customers, with a limit and a running ledger
+- **Admin panel** with owner and staff roles, Web Push alerts for new orders, sales insights, and search that understands local names (*doodh*, *kela*, *atta*) across about 800 products
+- **Next.js 16 on Cloudflare Workers**, an **Expo** app for Android and iOS, and **Supabase** with row-level security. Migrations are tested on an in-memory Postgres, with GitHub Actions checks and nightly database backups
 
 ## Engineering projects
 
