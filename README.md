@@ -3,21 +3,9 @@
   <img alt="Jay Prakash: lead software engineer building AI products. Career line from Java and Spring Boot through microservices, cloud and distributed systems to AI products." src="assets/banner-light.svg" width="100%">
 </picture>
 
-I'm a lead software engineer with 7+ years of building backend systems in **Java and Spring Boot**: microservices, API platforms, cloud deployments and the distributed systems behind them. These days I take that production discipline into **AI products**, and I build my own apps under **Jay Apps Studio**.
+I'm a lead software engineer with 7+ years of building backend systems in **Java and Spring Boot**: microservices, API platforms, cloud deployments and the distributed systems behind them. These days I take that production discipline into **AI products**, and I build my own apps on the side.
 
 ## What I've built
-
-### [AI Engineer Path](https://aiengineerpath.in) · live
-
-[![AI Engineer Path homepage](assets/aiengineerpath.png)](https://aiengineerpath.in)
-
-Become an AI engineer at your own pace. One 40-week path from Python to production AI, for developers who already code: along the way you build a GPT from scratch, a RAG system with evals, and an agent that's safe to leave running.
-
-- **247 original lessons** across 8 phases, **22 interactive simulations** (self-attention, gradient descent, temperature and top-p, a RAG pipeline…), and a quiz, exercises and interview questions for every week
-- **Eight portfolio projects**, with two flagships that ship eval results and a cost analysis: a production RAG system with hybrid search and reranking, and a LangGraph agent with approval gates, a cost ceiling and its own MCP server
-- A **pace engine** that re-dates 280 daily tasks to the hours each learner has, with progress synced across devices
-- **148 free videos** from StatQuest, Andrej Karpathy, 3Blue1Brown and others, each placed on the week it helps. Weeks 1–5 are open with no sign-up
-- **Next.js 16 on Cloudflare Workers**, Supabase for auth and data, Resend email and Turnstile spam protection
 
 ### [Splitr](https://splitr.in) · live on the web, Android app in closed testing
 
@@ -29,18 +17,6 @@ Know who owes whom, and settle up by UPI. Add what you spent on a trip, the flat
 - **Personal ledger** with a monthly summary, category breakdown, budgets and a savings goal, and no bank login
 - Splitwise import with original dates, receipt scanning, 25 currencies, and group chat over WebSockets
 - **TypeScript (React and Express) on PostgreSQL**, deployed with Docker Compose and Caddy; each deploy runs migrations first and rolls back automatically if the health check fails
-
-### [Plannly](https://plannly.org) · live
-
-[![Plannly homepage](assets/plannly.png)](https://plannly.org)
-
-A free study planner that tells you what to study today. For school, college and exam-prep students in any country: it turns exams, homework, classes and the syllabus into one daily plan, and when you're stuck, AI explains it at your grade and in your language.
-
-- **A plan that fits the days you have**: syllabus topics spread across the days before the exam, important ones first, with revision days kept at the end. It adjusts to how fast you actually work
-- **Spaced repetition** for revision, and flashcards on the same SM-2 schedule Anki uses, with Learn, Test and Match modes
-- **AI study help** with Claude: topics pulled from your curriculum, step-by-step answers from a photo of a question, and notes, flashcards and a quiz made from a lecture PDF
-- Attendance tracking, mock-test trends, GPA and CGPA, a focus timer and Android home-screen widgets
-- **Offline-first Flutter app** (data stays on the device). The backend is **Spring Boot 3** with PostgreSQL, Redis, JWT auth and the Anthropic Java SDK, deployed with Docker Compose and Caddy; the website runs on Cloudflare Pages
 
 ### [Arjun Fresh](https://arjunfresh.com) · live on the web, Android and iPhone apps coming
 
@@ -77,7 +53,7 @@ Online ordering for a neighbourhood fruit and vegetable store in Delhi, which un
 - **Data:** PostgreSQL, Supabase, SQLite, Prisma, SQLAlchemy, Firebase
 - **Cloud and delivery:** AWS EKS, Kubernetes, Docker, Jenkins, Cloudflare Workers, Caddy
 - **Frontend and mobile:** Next.js, React, Tailwind CSS, Flutter, Expo (React Native)
-- **AI:** LLM features in production apps, RAG, evals and agents, and teaching all of it on AI Engineer Path
+- **AI:** LLM features in production apps, RAG, evals and agents
 
 ## Always learning
 
